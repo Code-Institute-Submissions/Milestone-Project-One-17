@@ -172,13 +172,21 @@
 
 /* --------------------Team of the week--------------------- */
 
+
 .container {
-    width: 600px;
-    /* background-image: linear-gradient(rgb(3, 146, 79),rgb(3, 146, 79),rgb(2, 242, 131),rgb(3, 146, 79),rgb(3, 146, 79),rgb(2, 242, 131),rgb(3, 146, 79),rgb(3, 146, 79)); */
     background: url('../images/football-pitch-finish.PNG');
     background-size: 100% 100%;
+    max-width: 600px;
 }
-
+@media(max-width:768px){ 
+.grid .grid-element {
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+}
+}
 
 
 
