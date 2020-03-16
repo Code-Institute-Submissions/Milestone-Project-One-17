@@ -175,7 +175,7 @@
 .container {
     width: 600px;
     /* background-image: linear-gradient(rgb(3, 146, 79),rgb(3, 146, 79),rgb(2, 242, 131),rgb(3, 146, 79),rgb(3, 146, 79),rgb(2, 242, 131),rgb(3, 146, 79),rgb(3, 146, 79)); */
-    background-image: url("../images/football-pitch-finish.PNG")
+    background: url('../images/football-pitch-finish.PNG');
     background-size: 100% 100%;
 }
 
