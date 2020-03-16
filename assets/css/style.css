@@ -155,13 +155,24 @@
 }
 
 .grid .grid-element {
-    padding: 10px;
-    background-color: #fafafa;
     color: black;
-    text-align: center;
     min-height: 40px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    text-align: center;
+    background-color:#fafafa;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    border-radius: 50%;
+    line-height: 44px;
+    /* padding: 0 15px 0 15px; */
+    
+}
+
+.grid .row {
+    margin-bottom: 5px;
 }
 
 .grid .controls {
@@ -185,18 +196,95 @@
     margin-bottom: 10px;
     text-align: center;
     padding: 0px;
+    font-size: 0.8rem;
+    line-height: 22px;
+}
+.container {
+    max-width: 300px;
 }
 }
 
+.grid .container .row .col-3 {
+    padding: 1%;
+}
+
+.offset-half {
+    margin-left: 12.5%
+}
+
+.offset-one-and-a-half
+{
+    margin-left: 37.5%
+}
 
 
+/* --------------------Club Colours--------------------- */
 
+.ars{
 
+}
+.ava{
 
+}
+.bou{
 
+}
+.brh{
 
+}
+.bur{
+
+}
+.che{
+
+}
+.cry{
+
+}
+.eve{
+
+}
+.lei{
+
+}
+.liv{
+
+}
+.mci{
+
+}
+.mun{
+
+}
+.new{
+
+}
+.nor{
+    
+}
+.shu{
+
+}
+.sou{
+
+}
+.tot{
+
+}
+.wat{
+
+}
+.whu{
+
+}
+.wlv{
+    
+}
 
 
 
 /* Credits */
 /* https://www.freeimages.com/photo/soccer-field-1147736 */
+/* https://www.w3schools.com/css/css3_gradients.asp */
+/* https://stackoverflow.com/questions/6457406/can-i-apply-multiple-background-colors-with-css3 */
+/* https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530 */
