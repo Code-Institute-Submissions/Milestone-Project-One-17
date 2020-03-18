@@ -47,7 +47,6 @@
 /* -----------------------Social Mdeia Bar------------------------ */
 /* https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp */
 /* Social Media Bar */
-/* Need to fix this so that it remains in center of screen */
 .icon-bar {
     position: fixed;
     bottom: 50%;
@@ -55,6 +54,7 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding: 0;
+    z-index: 1;
 }
 
 /* Style the icon bar links */
@@ -217,6 +217,20 @@
     margin-left: 37.5%
 }
 
+.grid-heading{
+    color: black;
+    min-height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    text-align: center;
+    background-color:#fafafa;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    border-radius: 50%;
+    line-height: 44px;
+}
 
 /* --------------------Club Colours--------------------- */
 
