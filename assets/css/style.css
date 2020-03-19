@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 body{
-    background: #c7c7c7;
+    /* background: #c7c7c7; */
+    background: white;
 }
 
 
@@ -18,9 +19,14 @@ body{
 }
 
 .btn-lg {
-    background-color: rgb(3, 146, 79);
+    background-color: rgb(40, 167, 69);
     background-size: 100% 100%;
     border: rgb(53, 0, 58);
+}
+
+/* --------------------Navbar------------------- */
+.navbar-bar{
+    background-color: #c7c7c7;
 }
 
 
@@ -58,10 +64,10 @@ body{
 /* Social Media Bar */
 .icon-bar {
     position: fixed;
-    bottom: 50%;
-    -webkit-transform: translateY(-50%);
+    bottom: 30%;
+    /* -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     padding: 0;
     z-index: 1;
 }
@@ -151,7 +157,7 @@ body{
 
 /* --------------------Team of the week--------------------- */
 .grid{
-    margin: 60px 0 60px 0;
+    margin: 56px 0 56px 0;
 }
 
 .grid .col-3 .grid-element {
@@ -219,7 +225,7 @@ body{
 }
 
 .col-heading{
-    color: #fafafa;
+    color: rgb(40, 167, 69);
     min-height: 40px;
     vertical-align: middle;
     text-align: center;
@@ -245,25 +251,50 @@ body{
 
 /* --------------------Features--------------------- */
 
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
+    background-color: rgb(41, 0, 53);
+    border-radius: 3%;
+    /* background-color: rgb(3, 146, 79); */
 }
 
 .feature i {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 45px;
     line-height: 45px;
 }
 
+.feature p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.feature h3 {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
 .feature .btn {
-    background-color: white;
+    background-color: #c7c7c7;
     border-color: white;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: rgb(40, 167, 69);
 }
 
 
@@ -284,6 +315,28 @@ body{
 
 .block-divider--short {
     width: 35px;
+}
+
+
+.container-wrapper--grey {
+    /* background-color: rgb(3, 146, 79); */
+    background: #c7c7c7;
+    /* background-color: white; */
+    color: rgb(40, 167, 69);
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
 /* Buttons */
@@ -309,26 +362,6 @@ body{
     color: white;
 }
 
-.container-wrapper {}
-
-.container-wrapper--red {
-    background-color: #f05f40;
-    color: white;
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
 
 /* --------------------Club Colours--------------------- */
 
