@@ -147,19 +147,11 @@ body{
 
 /* grid system */
 
-.container {
-    background-color: #f5f5f5;
-}
 
-.header {
-    padding-left: 0;
-    padding-right: 0;
-}
 
-.grid .row {
-    /* background-color: #e8e8e8; */
-    margin-bottom: 10px;
-    min-height: 60px;
+/* --------------------Team of the week--------------------- */
+.grid{
+    margin: 60px 0 60px 0;
 }
 
 .grid .col-3 .grid-element {
@@ -188,16 +180,16 @@ body{
     left: 10px;
 }
 
-/* --------------------Team of the week--------------------- */
-.grid{
-    margin: 60px 0 60px 0;
-}
 
-.container {
-    background: url('../images/football-pitch-finish.PNG');
-    background-size: 100% 100%;
+.container-sizing {
     max-width: 600px;
 }
+
+.container-pitch {
+    background: url('../images/football-pitch-finish.PNG');
+    background-size: 100% 100%;
+}
+
 @media(max-width:768px){ 
 .grid .col-3 .grid-element {
     min-height: 20px;
@@ -208,12 +200,12 @@ body{
     font-size: 0.8rem;
     line-height: 22px;
 }
-.container {
+.container-sizing {
     max-width: 300px;
 }
 }
 
-.grid .container .row .col-3 {
+.grid .container-pitch .row .col-3 {
     padding: 1%;
 }
 
@@ -238,10 +230,7 @@ body{
 .grid .row-heading{
     margin-bottom: 0;
 }
-.container-heading{
-    background: none;
 
-}
 
 .center {
   display: block;
@@ -254,6 +243,92 @@ body{
     margin-top: .5rem;
 }
 
+/* --------------------Features--------------------- */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 /* --------------------Club Colours--------------------- */
 
