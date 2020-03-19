@@ -9,7 +9,6 @@ body{
 
 .jumbotron {
     margin:0;
-    /* background-image: linear-gradient(to bottom right, rgb(53, 0, 58), rgb(55, 0, 60),rgb(2, 242, 131) ); */
     background-color: rgb(41, 0, 53);
     color: #fafafa;
     background-size: 100% 100%;
@@ -19,9 +18,9 @@ body{
 }
 
 .btn-lg {
-    background-color: rgb(40, 167, 69);
+    /* background-color: rgb(40, 167, 69);
     background-size: 100% 100%;
-    border: rgb(53, 0, 58);
+    border: rgb(53, 0, 58); */
 }
 
 /* --------------------Navbar------------------- */
@@ -35,6 +34,11 @@ body{
     background-image: linear-gradient(to bottom right, rgb(53, 0, 58), rgb(55, 0, 60),rgb(2, 242, 131) );
     color: black;
 }
+
+.btn {
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
 /*----------------------- */
 
 .display-Title {
@@ -90,8 +94,12 @@ body{
     bottom: 0;
     width: 74%;
     background-color: rgb(41, 0, 53);
-    height: 55px;
-    padding: 5px;
+    border-top: 1px rgb(40, 167, 69) solid;
+    border-right: 1px rgb(40, 167, 69) solid;
+    border-left: 1px rgb(40, 167, 69) solid;
+    /* background-color: #c7c7c7; */
+    height: 58px;
+    padding: 3px;
     margin: 0px 13% 0px 13%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -168,13 +176,18 @@ body{
     vertical-align: middle;
     text-align: center;
     background-color:#fafafa;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden; 
     border-radius: 50%;
     line-height: 44px;
     
 }
+.grid-element p {
+    margin: 0;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
 
 .grid .row {
     margin-bottom: 5px;
