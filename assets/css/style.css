@@ -4,6 +4,9 @@ body{
     background: white;
 }
 
+.header-color{
+        color: rgb(41, 0, 53);
+}
 
 /* -----------------------Jumbotron------------------------ */
 
@@ -29,7 +32,7 @@ body{
 }
 
 /* --------------------Navbar------------------- */
-.navbar-bar{
+.navbar-light{
     background-color: #c7c7c7;
     border-top: 1px rgb(40, 167, 69) solid;
     border-bottom: 1px rgb(40, 167, 69) solid;
@@ -42,6 +45,7 @@ body{
 
 .nav-cta {
     float: right;
+    text-align: right;
 }
 
 
@@ -323,11 +327,6 @@ body{
     /* background-color: rgb(3, 146, 79); */
 }
 
-.feature .feature-span {
-   /* position: absolute;
-   bottom: 0;
-   right: 50%; */
-}
 
 .feature i {
     margin-bottom: 10px;
@@ -348,16 +347,6 @@ body{
     padding-top: 10px;
     margin-bottom: 0;
 }
-
-/* .feature .btn {
-    background-color: #c7c7c7;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: rgb(40, 167, 69);
-} */
 
 
 .block-divider {
@@ -381,10 +370,7 @@ body{
 
 
 .container-wrapper--grey {
-    /* background-color: rgb(3, 146, 79); */
     background: #c7c7c7;
-    /* background-color: white; */
-    color: rgb(41, 0, 53);
 }
 
 .container-wrapper .feature {
@@ -415,11 +401,11 @@ body{
 
 /* Buttons */
 
-.btn--cta {
-    /* font-weight: bold;
+/* .btn--cta {
+    font-weight: bold;
     border-radius: 23px;
-    width: 160px; */
-}
+    width: 160px;
+} */
 
 /* .btn--red {
     color: white;
@@ -539,7 +525,20 @@ body{
 .wlv{
     
 }
+.box-content {
+    display: inline-block;
+    width: 500px;
+    padding: 10px;
+    height: 500px;
+}
 
+.bottom {
+    border-bottom: 1px solid #ccc;
+}
+
+.right {
+    border-right: 1px solid #ccc;
+}
 
 
 /* Credits */
@@ -547,3 +546,4 @@ body{
 /* https://www.w3schools.com/css/css3_gradients.asp */
 /* https://stackoverflow.com/questions/6457406/can-i-apply-multiple-background-colors-with-css3 */
 /* https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530 */
+/* https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider */
