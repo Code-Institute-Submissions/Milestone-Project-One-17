@@ -346,8 +346,13 @@ body{
     /* background-color: rgb(3, 146, 79); */
     background: #c7c7c7;
     /* background-color: white; */
+    color: rgb(41, 0, 53);
+}
+
+.container-wrapper .feature {
     color: rgb(40, 167, 69);
 }
+
 
 .opaque-overlay {
     position: absolute;
