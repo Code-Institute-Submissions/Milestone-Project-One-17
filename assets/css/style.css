@@ -35,6 +35,15 @@ body{
     border-bottom: 1px rgb(40, 167, 69) solid;
 }
 
+.navbar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.nav-cta {
+    float: right;
+}
+
 
 /* Not working at minute */
 .btn-lg a:hover {
@@ -311,7 +320,7 @@ body{
     margin-bottom: 0;
 }
 
-.feature .btn {
+/* .feature .btn {
     background-color: #c7c7c7;
     border-color: white;
     border-radius: 15px;
@@ -319,7 +328,7 @@ body{
     font-weight: bold;
     margin-top: 10px;
     color: rgb(40, 167, 69);
-}
+} */
 
 
 .block-divider {
@@ -371,12 +380,12 @@ body{
 /* Buttons */
 
 .btn--cta {
-    font-weight: bold;
+    /* font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 160px; */
 }
 
-.btn--red {
+/* .btn--red {
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
@@ -389,7 +398,7 @@ body{
     background-color: #df4929;
     border-color: #df4929;
     color: white;
-}
+} */
 
 /* --------------------Footer--------------------- */
 
