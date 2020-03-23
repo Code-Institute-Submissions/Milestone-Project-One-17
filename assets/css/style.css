@@ -181,7 +181,24 @@ body{
 
 /* grid system */
 
+/* --------------------Why FPL-AM--------------------- */
 
+.grid .row-why {
+    height: 500px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.conatiner-why {
+    background: #c7c7c7;
+    border: red solid 1px;
+}
+
+@media(max-width:768px){ 
+    .grid .row-why {
+    height: 250px;
+}
+}
 
 /* --------------------Team of the week--------------------- */
 .grid{
@@ -298,10 +315,18 @@ body{
 
 .feature {
     text-align: center;
+    /* position: relative; */
     margin-bottom: 40px;
     background-color: rgb(41, 0, 53);
     border-radius: 3%;
+    height: 350px;
     /* background-color: rgb(3, 146, 79); */
+}
+
+.feature .feature-span {
+   /* position: absolute;
+   bottom: 0;
+   right: 50%; */
 }
 
 .feature i {
@@ -313,6 +338,10 @@ body{
 .feature p {
     padding: 10px;
     margin-bottom: 0;
+    height: 160px;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    overflow: hidden; 
 }
 
 .feature h3 {
@@ -376,6 +405,13 @@ body{
     padding-top: 56px;
     padding-bottom: 56px;
 }
+
+@media(max-width:768px){
+    .feature {
+        height: 300px;
+    }
+}
+
 
 /* Buttons */
 
