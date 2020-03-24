@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 body{
-    /* background: #c7c7c7; */
-    background: white;
+    background: #fafafa;
 }
 
 .header-color{
@@ -25,11 +24,6 @@ body{
     /* text-align: center; */
 }
 
-.btn-lg {
-    /* background-color: rgb(40, 167, 69);
-    background-size: 100% 100%;
-    border: rgb(53, 0, 58); */
-}
 
 /* --------------------Navbar------------------- */
 .navbar-light{
@@ -183,28 +177,42 @@ body{
 }
 
 
-/* grid system */
 
-/* --------------------Why FPL-AM--------------------- */
+/* --------------------Reasons why quarters------------------ */
+.vr-all {
+	padding:0px;
+	border-right:1px solid rgb(40, 167, 69);
+}
 
+.hrspacing { 
+    padding:0px;
+}
+.hrcolor {
+	border-color: rgb(40, 167, 69);
+	border-style: solid;
+	border-bottom: 1px;
+	margin:0px;
+	padding:0px;
+}
 
-
-.grid .row-why {
+.reason {
     height: 500px;
-    padding: 0;
-    margin-bottom: 0;
 }
 
-.conatiner-why {
-    background: #c7c7c7;
-    border: red solid 1px;
+@media(max-width:768px){
+	.vr-all {
+		border-right:none;
+	}
+    .reason {
+        height: 300px;
+    }
 }
 
-@media(max-width:768px){ 
-    .grid .row-why {
-    height: 250px;
-}
-}
+@media(max-width:992px){
+    .reason {
+        height: 400px;
+    }
+} 
 
 /* --------------------Team of the week--------------------- */
 .grid{
@@ -403,26 +411,14 @@ body{
 
 /* Buttons */
 
-/* .btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-} */
+@media(max-width:992px){
+    .btn-outline-success {
+    color: rgb(41, 0, 53);
+    border-color: #28a745;
+    background: #28a745;
+    }
+} 
 
-/* .btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-} */
 
 /* --------------------Footer--------------------- */
 
@@ -529,63 +525,7 @@ body{
 }
 
 
-/* .box-content {
-    display: inline-block;
-    width: 500px;
-    padding: 10px;
-    height: 500px;
-}
 
-.bottom {
-    border-bottom: 1px solid #ccc;
-}
-
-.right {
-    border-right: 1px solid #ccc;
-}
-
-.row:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-}
-
-.col-xs-3:not(:last-child) {
-    border-right: 1px solid #ccc;
-} */
-
-
-
-
-/* -------------------- reasons why quarters------------------ */
-.vr-all {
-	padding:0px;
-	border-right:1px solid rgb(40, 167, 69);
-}
-.vr-xs {
-	padding:0px;
-}
-.vr-md {
-	padding:0px;
-}
-.hrspacing { padding:0px; }
-.hrcolor {
-	border-color: rgb(40, 167, 69);
-	border-style: solid;
-	border-bottom: 1px;
-	margin:0px;
-	padding:0px;
-}
-
-.reason {
-    height: 500px;
-}
-
-
-/* remove right vertical rule on small */
-@media(min-width:992px){
-	.vr-xs {
-		border-right:1px solid rgb(40, 167, 69);
-	}
-	}
 
 
 
