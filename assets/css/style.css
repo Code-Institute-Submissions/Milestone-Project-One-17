@@ -110,7 +110,9 @@ body{
     -ms-transform: translateY(0%);
     transform: translateY(0%);
     bottom: 0;
-    width: 74%;
+    width: 280px;
+    margin-left:-140px;
+    left:50%;
     background-color: rgb(41, 0, 53);
     border-top: 1px rgb(40, 167, 69) solid;
     border-right: 1px rgb(40, 167, 69) solid;
@@ -118,7 +120,7 @@ body{
     /* background-color: #c7c7c7; */
     height: 58px;
     padding: 3px;
-    margin: 0px 13% 0px 13%;
+    /* margin: 0px 13% 0px 13%; */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     }
