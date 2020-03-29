@@ -240,6 +240,9 @@ body{
 }
 
 /* --------------------Team of the week--------------------- */
+.no-padding{
+    padding: 0;
+}
 .grid{
     margin: 56px 0 56px 0;
 }
@@ -278,7 +281,18 @@ body{
 
 .container-sizing {
     max-width: 600px;
+    height: 715px;
 }
+
+.container-1{
+
+}
+
+.container-2{
+
+}
+
+
 
 .container-pitch {
     background: url('../images/football-pitch-finish.PNG');
@@ -286,7 +300,7 @@ body{
 }
 
 @media(max-width:768px){ 
-.grid .col-3 .grid-element {
+    .grid .col-3 .grid-element {
     min-height: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -294,10 +308,12 @@ body{
     padding: 0px;
     font-size: 0.8rem;
     line-height: 22px;
-}
-.container-sizing {
-    max-width: 300px;
-}
+    height: 85px;
+    }
+    .container-sizing {
+    max-width: 400px;
+    height: 460px;
+    }
 }
 
 .grid .container-pitch .row .col-3 {
@@ -338,6 +354,22 @@ body{
     margin-top: .5rem;
 }
 
+
+/* --------------------Top Players--------------------- */
+.top-players tr {
+    line-height: 1.25;
+}
+
+.player-form {
+    letter-spacing: .75rem;
+    width: 160px;
+}
+
+tr td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
 /* --------------------Features--------------------- */
 
 
