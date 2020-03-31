@@ -243,11 +243,21 @@ body{
 .no-padding{
     padding: 0;
 }
-.grid{
-    margin: 56px 0 56px 0;
+
+.nice-margin{
+    margin: 10px;
 }
 
-.grid .col-3 .grid-element {
+.sub-container{
+    max-width: 550px;
+}
+
+.container-form-main{
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.container-form-main .col-3 .grid-element {
     color: black;
     min-height: 40px;
     margin-top: 15px;
@@ -257,6 +267,11 @@ body{
     background-color:#fafafa;
     border-radius: 50%;
     line-height: 44px;
+    padding: 0px; 
+}
+
+.container-form-main .col-3 {
+    padding: 2px;
     
 }
 .grid-element p {
@@ -268,11 +283,11 @@ body{
 }
 
 
-.grid .row {
+.container-form-main .row {
     margin-bottom: 5px;
 }
 
-.grid .controls {
+.container-form-main .controls {
     position: fixed;
     bottom: 10px;
     left: 10px;
@@ -300,7 +315,7 @@ body{
 }
 
 @media(max-width:768px){ 
-    .grid .col-3 .grid-element {
+    .container-form-main .col-3 .grid-element {
     min-height: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -316,7 +331,8 @@ body{
     }
 }
 
-.grid .container-pitch .row .col-3 {
+
+.container-form-main .container-pitch .row .col-3 {
     padding: 1%;
 }
 
@@ -338,7 +354,7 @@ body{
 
 }
 
-.grid .row-heading{
+.container-form-main .row-heading{
     margin-bottom: 0;
 }
 
@@ -356,6 +372,10 @@ body{
 
 
 /* --------------------Top Players--------------------- */
+.table {
+    margin: 0;
+}
+
 .top-players tr {
     line-height: 1.25;
 }
@@ -370,6 +390,19 @@ tr td {
     text-overflow: ellipsis;
     overflow: hidden; 
 }
+
+@media(max-width:992px){
+    .sub-container-ctp {
+        height: 400px;
+    }
+} 
+
+@media(max-width:768px){
+     .sub-container {
+    width: 95%;
+    }
+}
+
 /* --------------------Features--------------------- */
 
 
@@ -594,9 +627,7 @@ tr td {
 
 
 
-
-
-
+/* //////////////////////////////////////////////////////////////////////// */
 
 
 /* Credits */
@@ -606,3 +637,7 @@ tr td {
 /* https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530 */
 /* https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider */
 /* https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div */
+
+/* Tools */
+/* https://www.freeformatter.com/css-beautifier.html */
+/* https://purifycss.online/ */
