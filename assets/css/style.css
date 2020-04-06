@@ -651,7 +651,6 @@ tr td {
 
 .btn-facebook {
     color: #fff;
-    border: 
 }
 .btn-google {
     color: #fff;
@@ -684,10 +683,37 @@ tr td {
 
 .modal-body .modal-card{
     margin: 0;
+    color: rgb(41, 0, 53);
 }
 .modal-body{
     padding: 0;
 }
+
+.btn-signup {
+    color: #ffffff;
+    background-color: rgb(41, 0, 53);
+    border: 1px solid rgb(41, 0, 53);
+}
+
+
+.btn-signup:hover {
+    border: 1px solid rgb(41, 0, 53);
+    color: rgb(41, 0, 53);
+    background-color: #ffffff;
+}
+
+.btn-close {
+    width: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: 500;
+}
+
+.btn-close:hover {
+    font-weight: 700;
+}
+
 
 
 /* //////////////////////////////////////////////////////////////////////// */
