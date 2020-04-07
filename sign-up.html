@@ -30,10 +30,9 @@
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-body">
-						<!-- <div class="container"> -->
 						<div class="card card-signup bg-light modal-card">
 							<article class="card-body mx-auto" style="max-width: 400px;">
-								<button type="button" class="btn btn-close" data-dismiss="modal">X</button>
+								<button type="button" class="btn btn-close" data-dismiss="modal">x</button>
 								<h4 class="card-title mt-3 text-center">Login via Social Media</h4>
 								<a href="" class="btn btn-block google btn-google">
 									<i class="fa fa-google"></i> Login via Google</a>
@@ -70,7 +69,6 @@
 								</form>
 							</article>
 						</div>
-						<!-- </div> -->
 					</div>
 				</div>
 			</div>
@@ -202,6 +200,8 @@
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn btn-block btn-signup"><i class="fa fa-plus" aria-hidden="true"></i> Create Account</button>
+
+                        <!-- <a class="btn btn-block btn-signup" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus" aria-hidden="true"></i> Create Account</a> -->
 					</div>
 					<p class="text-center">Have an account? <a href=""data-toggle="modal" data-target="#signup-loginmodal">Sign In</a>
 					</p>
@@ -209,6 +209,78 @@
 			</article>
 		</div>
 	</div>
+
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
+ <!-- The Modal -->
+<div id="myModal" class="modal modal-loader">
+
+  <!-- Modal content -->
+  <div class="modal-content modal-loader-content">
+    <span class="close">&times;</span>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Account Created</h2>
+  <p>Please verify your account via link provided in email</p>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
+
+
 	<footer>
 		<section>
 			<div class="container-wrapper container-wrapper--purple">
