@@ -713,7 +713,6 @@ tr td {
     float: right;
     font-size: 20px;
     padding: 5px;
-    /* font-weight: bold; */
 }
 
 .btn-close:hover,
@@ -829,7 +828,11 @@ tr td {
 /* https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider */
 /* https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div */
 
+/* https://www.w3schools.com/howto/howto_css_loader.asp */
+/* https://www.w3schools.com/bootstrap/bootstrap_modal.asp */
+
 /* Tools */
 /* https://www.freeformatter.com/css-beautifier.html */
 /* https://purifycss.online/ */
 /* https://bootsnipp.com/snippets/z8699  - sign up*/
+
