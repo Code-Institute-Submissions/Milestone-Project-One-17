@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<div class="jumbotron center">
+		<div class="jumbotron center">
 		<h1 class="display-Title d-none d-sm-block">Fantasy Premier League - Assistant Manager</h1>
 		<h1 class="display-Title d-block d-sm-none">FPL - Assistant Manager</h1>
 		<p class="lead d-none d-sm-block">Take your FPL tactics to the the next level by using our selection algorithms
@@ -30,7 +30,6 @@
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-body">
-						<!-- <div class="container"> -->
 						<div class="card card-signup bg-light modal-card">
 							<article class="card-body mx-auto" style="max-width: 400px;">
 								<button type="button" class="btn btn-close" data-dismiss="modal">x</button>
@@ -70,14 +69,17 @@
 								</form>
 							</article>
 						</div>
-						<!-- </div> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<nav class="navbar sticky-top navbar-expand-lg navbar-light navbar-bar">
-		<a class="navbar-brand" href="#">
+
+
+	</div>
+
+	<nav class="navbar navbar-expand-md sticky-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand abs" href="#">
 			<img
         src="https://sheleaps.org/wp-content/uploads/2018/07/Bootstrap-4-1.png"
         width="30"
@@ -87,35 +89,23 @@
       />
       FPL-AM
     </a>
-			<button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        <span class="navbar-toggler-icon"></span>
     </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="form-center.html">Form
-							Center<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="transfer-center.html">Transfer Center</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link nav-cta" href="sign-up.html">Sign Up!</a>
-					</li>
-				</ul>
-			</div>
-	</nav>
+    <div class="navbar-collapse collapse" id="collapsingNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Form Center</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sign-up.html">Sign Up!</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 	<div class="icon-bar">
 		<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
 		<a href="#" class="google"><i class="fa fa-google"></i></a>

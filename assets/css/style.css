@@ -37,10 +37,6 @@ body{
     font-weight: 500;
 }
 
-.nav-cta {
-    float: right;
-    text-align: right;
-}
 
 
 /* Not working at minute */
@@ -206,23 +202,23 @@ body{
     height: 500px;
 }
 
+@media(max-width:992px){
+    .reason {
+        height: 450px;
+    }
+} 
+
+
 @media(max-width:768px){
 	.vr-all {
 		border-right:none;
 	}
-    .reason {
-        height: 300px;
-    }
     .vr-bottom{
     border-bottom:1px solid rgb(40, 167, 69);
     }
 }
 
-@media(max-width:992px){
-    .reason {
-        height: 400px;
-    }
-} 
+
 
 .card-quad {
     padding: 5%;
@@ -816,7 +812,6 @@ tr td {
 
 
 
-
 /* //////////////////////////////////////////////////////////////////////// */
 
 
@@ -830,6 +825,8 @@ tr td {
 
 /* https://www.w3schools.com/howto/howto_css_loader.asp */
 /* https://www.w3schools.com/bootstrap/bootstrap_modal.asp */
+
+/* https://www.codeply.com/go/qhaBrcWp3v Navbar*/
 
 /* Tools */
 /* https://www.freeformatter.com/css-beautifier.html */
