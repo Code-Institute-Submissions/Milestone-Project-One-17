@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap');
 body{
     background: #fafafa;
+    font-family: "Exo", sans-serif;
 }
 
-.header-color{
-        color: rgb(41, 0, 53);
+.header-container{
+        padding: 10px;
 }
 
 /* -----------------------Jumbotron------------------------ */
@@ -26,10 +27,10 @@ body{
 
 
 /* --------------------Navbar------------------- */
-.navbar-light{
-    background-color: #c7c7c7;
-    border-top: 1px rgb(40, 167, 69) solid;
-    border-bottom: 1px rgb(40, 167, 69) solid;
+.navbar-dark{
+    background-color: rgb(41, 0, 53);
+    /* border-top: 1px rgb(40, 167, 69) solid;
+    border-bottom: 1px rgb(40, 167, 69) solid; */
 }
 
 .navbar {
@@ -113,10 +114,8 @@ body{
     border-top: 1px rgb(40, 167, 69) solid;
     border-right: 1px rgb(40, 167, 69) solid;
     border-left: 1px rgb(40, 167, 69) solid;
-    /* background-color: #c7c7c7; */
     height: 58px;
     padding: 3px;
-    /* margin: 0px 13% 0px 13%; */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     }
@@ -182,16 +181,21 @@ body{
 }
 
 .vr-right{
-    border-right:1px solid rgb(40, 167, 69);
+    border-right:1px solid rgb(41, 0, 53);
 }
 
 
+.container-header{
+    margin: 0;
+    background-color: rgb(41, 0, 53);
+    color: #fafafa;
+}
 
 .hrspacing { 
     padding:0px;
 }
 .hrcolor {
-	border-color: rgb(40, 167, 69);
+	border-color: rgb(41, 0, 53);
 	border-style: solid;
 	border-bottom: 1px;
 	margin:0px;
@@ -248,12 +252,8 @@ body{
     max-width: 550px;
 }
 
-.container-form-main{
-    margin-top: 56px;
-    margin-bottom: 56px;
-}
 
-.container-form-main .col-3 .grid-element {
+.content-container .col-3 .grid-element {
     color: black;
     min-height: 40px;
     margin-top: 15px;
@@ -266,7 +266,7 @@ body{
     padding: 0px; 
 }
 
-.container-form-main .col-3 {
+.content-container .col-3 {
     padding: 2px;
     
 }
@@ -279,11 +279,8 @@ body{
 }
 
 
-.container-form-main .row {
-    margin-bottom: 5px;
-}
 
-.container-form-main .controls {
+.content-container .controls {
     position: fixed;
     bottom: 10px;
     left: 10px;
@@ -293,14 +290,12 @@ body{
 .container-sizing {
     max-width: 600px;
     height: 715px;
+    margin: 0;
 }
 
-.container-1{
-
-}
-
-.container-2{
-
+.sub-section-header{
+    font-weight: 300;
+    margin: .5rem 0 .5rem 0; 
 }
 
 
@@ -311,7 +306,7 @@ body{
 }
 
 @media(max-width:768px){ 
-    .container-form-main .col-3 .grid-element {
+    .content-container .col-3 .grid-element {
     min-height: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -322,13 +317,14 @@ body{
     height: 85px;
     }
     .container-sizing {
-    max-width: 400px;
-    height: 460px;
+    max-width: 500px;
+    height: 500px;
+    margin: 0;
     }
 }
 
 
-.container-form-main .container-pitch .row .col-3 {
+.content-container .container-pitch .row .col-3 {
     padding: 1%;
 }
 
@@ -350,9 +346,6 @@ body{
 
 }
 
-.container-form-main .row-heading{
-    margin-bottom: 0;
-}
 
 
 .center {
@@ -402,15 +395,11 @@ tr td {
 /* --------------------Features--------------------- */
 
 
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
+.section-header {
+    margin: 20px 0 20px 0;
     text-align: center;
 }
 
-.page-header h2 {
-    margin-top: 0;
-}
 
 
 .feature {
@@ -466,7 +455,7 @@ tr td {
 
 
 .container-wrapper--grey {
-    background: #c7c7c7;
+    background: #f5f5f5;;
 }
 
 .container-wrapper .feature {
@@ -799,15 +788,6 @@ tr td {
   height: 300px; /* Full height */
 }
 /* ///////////////////////////////////////////////////////////////////// */
-
-
-
-
-
-
-
-
-
 
 
 
