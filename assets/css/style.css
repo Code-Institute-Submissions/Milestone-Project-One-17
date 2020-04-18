@@ -14,27 +14,25 @@ body{
 .jumbotron {
     margin:0;
     background-color: rgb(41, 0, 53);
-    /* background: url('../images/bkgnd.PNG'); */
     color: #fafafa;
     background-size: 100% 100%;
-    font-family: "Exo",sans-serif;
     font-weight: 600;
     border-radius: 0;
-    /* padding: 56px 300px 56px 300px; */
     padding-top: 56px;
     padding-bottom: 56px;
-    /* text-align: center; */
 }
 
 
 /* --------------------Navbar------------------- */
 .navbar-dark{
     background-color: rgb(41, 0, 53);
-    /* border-top: 1px rgb(40, 167, 69) solid;
-    border-bottom: 1px rgb(40, 167, 69) solid; */
 }
 
 .navbar-dark .navbar-nav .nav-link {
+    color: #fafafa;
+}
+
+.logo {
     color: #fafafa;
 }
 
@@ -55,25 +53,18 @@ body{
     margin: 0 5px 0 5px;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.logo:focus, .navbar-dark .navbar-nav .nav-link:focus, .logo:hover,.navbar-dark .navbar-nav .nav-link:hover {
     border-radius: .25rem;
     color: rgb(41, 0, 53);
     background-color: #fafafa;
     opacity: 0.75;
 }
 
-/* Not working at minute */
-.btn-lg a:hover {
-    background-image: linear-gradient(to bottom right, rgb(53, 0, 58), rgb(55, 0, 60),rgb(2, 242, 131) );
-    color: black;
+
+.navbar img{
+    max-width: 30px;
+    max-height: 100%;
 }
-
-.btn {
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
-
-
 /*----------------------- */
 
 .display-Title {
@@ -197,7 +188,7 @@ body{
 
 
 
-/* --------------------Reasons why quarters------------------ */
+/* --------------------News quarters------------------ */
 .vr-all {
 	padding:0px;
 }
@@ -224,15 +215,21 @@ body{
 	padding:0px;
 }
 
-.reason {
+.news {
     height: 500px;
 }
 
 @media(max-width:992px){
-    .reason {
-        height: 450px;
+    .news {
+        height: 550px;
     }
 } 
+
+.btn-news{
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
 
 
 @media(max-width:768px){
@@ -241,6 +238,9 @@ body{
 	}
     .vr-bottom{
     border-bottom:1px solid rgb(40, 167, 69);
+    }
+    .news {
+        height: 500px;
     }
 }
 
@@ -252,12 +252,13 @@ body{
     background: transparent;
 }
 
-.card-quad .reason-image {
+.card-quad .news-image {
     height: 14rem;
     width: 18rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
     /* width: 50%; */
 }
 
@@ -272,6 +273,7 @@ body{
 
 .sub-container{
     max-width: 550px;
+    margin-bottom: 50px;
 }
 
 
@@ -339,7 +341,7 @@ body{
     height: 85px;
     }
     .container-sizing {
-    max-width: 500px;
+    max-width: 515px;
     height: 500px;
     margin: 0;
     }
@@ -416,7 +418,15 @@ tr td {
 
 /* --------------------Features--------------------- */
 
+.card-header{
+    height: 110px;
+    background-color: rgb(41, 0, 53);
+    color: rgb(40, 167, 69);
+}
 
+.btn-test {
+    bottom: 0;
+}
 .section-header {
     margin: 20px 0 20px 0;
     text-align: center;
@@ -426,14 +436,19 @@ tr td {
 
 .feature {
     text-align: center;
-    /* position: relative; */
     margin-bottom: 40px;
+    padding-bottom: 40px;
     background-color: rgb(41, 0, 53);
     border-radius: 10px;
     height: 350px;
-    /* background-color: rgb(3, 146, 79); */
 }
 
+
+.btn-feature {
+    position: absolute; 
+    bottom: 40px;
+    width: calc(100% - 10px);
+}
 
 .feature i {
     margin-bottom: 10px;
@@ -502,6 +517,20 @@ tr td {
 .content-container {
     padding-top: 56px;
     padding-bottom: 56px;
+}
+
+
+
+@media(max-width:1200px){
+    .feature {
+        height: 400px;
+    }
+    .feature p {
+        height: auto;
+    }
+    .btn-container{
+    padding-top: 0;
+    }
 }
 
 @media(max-width:992px){
@@ -824,6 +853,9 @@ tr td {
 /* https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530 */
 /* https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider */
 /* https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div */
+/* https://stackoverflow.com/questions/2147303/how-can-i-send-an-inner-div-to-the-bottom-of-its-parent-div */
+/* https://www.w3schools.com/cssref/func_calc.asp */
+
 
 /* https://www.w3schools.com/howto/howto_css_loader.asp */
 /* https://www.w3schools.com/bootstrap/bootstrap_modal.asp */
