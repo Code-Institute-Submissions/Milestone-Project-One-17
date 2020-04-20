@@ -97,7 +97,7 @@ body{
     }
     .jumbotron {
     padding:15px;
-    /* background: url('../images/bkgnd-s.png');
+    /* background: url('../images/bkgnd.PNG');
     background-size: 100% 100%; */
     }
 }
@@ -231,9 +231,7 @@ body{
     height: 500px;
 }
 
-.news:hover {
-    box-shadow: 5px 0px 40px rgba(0, 0, 0, .4);
-}
+
 
 .news-top-left {
     border-top: 1px solid transparent;
@@ -255,25 +253,31 @@ body{
     border-right: 1px solid transparent;
 }
 
-.news-top-left:hover {
+@media(min-width:768px){
+    .news:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .4);
+    }
+    .news-top-left:hover {
     border-top: rgb(41, 0, 53) solid 1px;
     border-left: rgb(41, 0, 53) solid 1px;
-}
+    }
 
-.news-top-right:hover {
+    .news-top-right:hover {
     border-top: rgb(41, 0, 53) solid 1px;
     border-right: rgb(41, 0, 53) solid 1px;
-}
+    }
 
-.news-bottom-left:hover {
+    .news-bottom-left:hover {
     border-bottom: rgb(41, 0, 53) solid 1px;
     border-left: rgb(41, 0, 53) solid 1px;
-}
+    }
 
-.news-bottom-right:hover {
+    .news-bottom-right:hover {
     border-bottom: rgb(41, 0, 53) solid 1px;
     border-right: rgb(41, 0, 53) solid 1px;
+    }
 }
+
 
 @media(max-width:992px){
     .news {
@@ -293,7 +297,7 @@ body{
 		border-right:none;
 	}
     .vr-bottom{
-    border-bottom:1px solid rgb(40, 167, 69);
+    border-bottom:1px solid rgb(41, 0, 53);
     }
     .news {
         height: 500px;
@@ -385,28 +389,9 @@ body{
     background-size: 100% 100%;
 }
 
-@media(max-width:767px){ 
-    .content-container .col-3 .grid-element {
-    min-height: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    padding: 0px;
-    font-size: 0.8rem;
-    line-height: 22px;
-    height: 85px;
-    }
-    .container-sizing {
-    max-width: 550px;
-    height: 500px;
-    margin: 0;
-    }
-}
-
-
 .content-container .container-pitch .row .col-3 {
     padding: 1%;
-}
+} 
 
 .offset-half {
     margin-left: 12.5%
@@ -427,7 +412,6 @@ body{
 }
 
 
-
 .center {
   display: block;
   text-align: center;
@@ -437,6 +421,28 @@ body{
 
 .grid-element h2{
     margin-top: .5rem;
+}
+
+
+@media(max-width:767px){ 
+    .content-container .col-3 .grid-element {
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0px;
+    font-size: 0.8rem;
+    line-height: 32px;
+    height: 6.25rem;
+    }
+    .container-sizing {
+    max-width: 550px;
+    height: 500px;
+    margin: 0;
+    }
+    .content-container .container-pitch .row .col-3 {
+    padding: 0 2% 0 2%;
+}
 }
 
 
@@ -730,8 +736,14 @@ tr td {
 
 }
 .sou{
-
+    /* background: url('../images/sou.png') center ;
+    background-size: 50% 65%;
+    background-repeat: no-repeat;
+    
+    vertical-align: middle;
+    padding-bottom: 0.6rem; */
 }
+
 .tot{
 
 }
