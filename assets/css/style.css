@@ -323,9 +323,132 @@ body{
 }
 
 /* --------------------Team of the week--------------------- */
+.col-custom{
+    -ms-flex: 0 0 20.0%;
+    flex: 0 0 20.0%;
+    max-width: 20.0%;
+    margin: 2.5%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#pitch{
+  height: auto;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+#pitch .col-custom{
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding: 14.5% 0 0;
+}
+
+#pitch .row-players .cus-padding{
+  padding: 15% 0 0;
+}
+
+.row-players{
+    margin-right: 0;
+    margin-left: 0;
+    max-height: 80px;
+}
+
+#pitch p{
+    width: 100%;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    color: white;
+    font-size: .75rem;
+    line-height: 1.1;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: 0;
+}
+
+.col-border{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+
+
+.container-pitch{
+    max-width: 600px;
+    max-height: 715px;
+    background: grey;
+    background-size: 100% 100%;
+}
+
+
+#pitch .row-fwd{
+  padding: 2.5% 0 0;
+}
+#pitch .row-mid{
+  padding: 2.5% 0 0;
+}
+#pitch .row-def{
+  padding: 2.5% 0 0;
+}
+#pitch .row-gk{
+  padding: 2.5% 0 0;
+}
+
+.row-main{
+    padding: 5% 0 6% 0;
+    max-height: 715px;
+}
 .no-padding{
     padding: 0;
 }
+
+.no-margin{
+    margin: 0;
+}
+
+.no-bottom-margin{
+    margin-bottom: 0;
+}
+.no-top-margin{
+    margin-top: 0;
+}
+
+.row-margins{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.offset-custom-3{
+    margin-left: 15%;
+}
+
+
+.offset-custom-1 {
+    margin-left: 40%;
+}
+
+
+.offset-one-and-a-half
+{
+    margin-left: 37.5%
+}
+
+/* '''' */
+
+
+
 
 .nice-margin{
     margin: 10px;
@@ -364,12 +487,6 @@ body{
 
 
 
-.content-container .controls {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-}
-
 
 .container-sizing {
     max-width: 600px;
@@ -385,22 +502,10 @@ body{
 
 
 .container-pitch {
-    background: url('../images/football-pitch-finish.PNG');
+    background: url('../images/football-pitch.png');
     background-size: 100% 100%;
 }
 
-.content-container .container-pitch .row .col-3 {
-    padding: 1%;
-} 
-
-.offset-half {
-    margin-left: 12.5%
-}
-
-.offset-one-and-a-half
-{
-    margin-left: 37.5%
-}
 
 .col-heading{
     color: rgb(40, 167, 69);
@@ -419,9 +524,7 @@ body{
   height: 100%;
 }
 
-.grid-element h2{
-    margin-top: .5rem;
-}
+
 
 
 @media(max-width:767px){ 
@@ -431,7 +534,7 @@ body{
     margin-bottom: 10px;
     text-align: center;
     padding: 0px;
-    font-size: 0.8rem;
+    font-size: 0.8rem;""
     line-height: 32px;
     height: 6.25rem;
     }
@@ -742,6 +845,10 @@ tr td {
     
     vertical-align: middle;
     padding-bottom: 0.6rem; */
+
+    background: url('sou.png') center top;
+    background-size: 50% 65%;
+    background-repeat: no-repeat;
 }
 
 .tot{
