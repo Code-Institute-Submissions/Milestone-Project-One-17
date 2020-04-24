@@ -533,7 +533,10 @@ body{
     }
     .content-container .container-pitch .row .col-3 {
     padding: 0 2% 0 2%;
-}
+    }
+    .row-main {
+    padding: 0;
+    }
 }
 
 @media(max-width:380px){
