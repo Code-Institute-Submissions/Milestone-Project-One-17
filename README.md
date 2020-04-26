@@ -64,7 +64,7 @@ Animations:
 * [EzGif.com](https://ezgif.com/webp-to-png) - Convert Image to more useable formats.
 * [Vecteezy.com](https://www.vecteezy.com/) - Images to fill site sections.
 
-## Testing
+## TESTING
 
 As a base building block I believe evidence of my testing is contained within my commits and commit comments, so along with that the below is generally what I have been testing and how.
 
@@ -103,37 +103,26 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+## DEPLOYMENT
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Deploy to Github Pages
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+1. Open GitHub and go to the projects **'Repository'**
+2. Click **'Settings'**
+3. Scroll down to the **'GitHub Pages'** section
+4. Click on the dropdown under **'Source'** and select the **'Master Branch'** option
+5. A green box should appear with the following message **'Your site is published at.../'**
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+
+### Cloning a Repository 
+
+1. Go to the main page of the GitHub repository and click on the dropdown menu **'Clone or download'**
+2. Copy the URL and go to your local IDE (Integrated Development Environment)
+3. In the terminal of your IDE type in **'git clone'** and the paste the URL copied from step 2 
+4. Press **Enter** and the clone will be created
 
 
-## Credits
-
-### Code Snips
-- Below links helped me in various parts of the project to overcome issues:
-https://bootsnipp.com/snippets/z8699
-https://www.w3schools.com/bootstrap/bootstrap_modal.asp
-https://www.codeply.com/go/qhaBrcWp3v
-https://www.w3schools.com/css/css3_gradients.asp
-https://stackoverflow.com/questions/6457406/can-i-apply-multiple-background-colors-with-css3
-https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530
-https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider
-https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div
-https://stackoverflow.com/questions/2147303/how-can-i-send-an-inner-div-to-the-bottom-of-its-parent-div
-https://www.w3schools.com/cssref/func_calc.asp
-https://www.flaticon.com/free-icon/tactics_1286371?term=soccer%20tactics&page=1&position=25
-https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+## CREDITS
 
 ### Media
 - The photos used in this site were obtained from [Fantasy Premier League](https://fantasy.premierleague.com/) & [Vecteezy.com](https://www.vecteezy.com/) (See Fair Use Disclaimer)
@@ -146,5 +135,20 @@ https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-mod
 2. [Fantasy Football Fix](https://www.fantasyfootballfix.com/)
 3. [Fantasy Football Scout](https://www.fantasyfootballscout.co.uk/)
 
-## Fair Use Disclaimer
+### Code Snips
+- Below links helped me in various parts of the project to overcome issues:
+* https://bootsnipp.com/snippets/z8699
+* https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+* https://www.codeply.com/go/qhaBrcWp3v
+* https://www.w3schools.com/css/css3_gradients.asp
+* https://stackoverflow.com/questions/6457406/can-i-apply-multiple-background-colors-with-css3
+* https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530
+* https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider
+* https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div
+* https://stackoverflow.com/questions/2147303/how-can-i-send-an-inner-div-to-the-bottom-of-its-parent-div
+* https://www.w3schools.com/cssref/func_calc.asp
+* https://www.flaticon.com/free-icon/tactics_1286371?term=soccer%20tactics&page=1&position=25
+* https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal
+
+## FAIR USE DISCLAIMER
  - The images used in this project are not owned by me and I have not been given permission to use these, the purpose of their inclusion is purely for visuals within the project and the entire project is for nonprofit educational purposes. If this site was to ever go outside the remit of "nonprofit educational" then these images would be removed prior to such action.
