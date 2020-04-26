@@ -40,7 +40,7 @@ Animations:
     Hover - most hover animations on the page are color inversions (font color becomes background color and background color become font color), I did this as I felt it made the items for interaction very obvious. These animations are included in the navbar, buttons, social media bar & Sign up/Sign in modals. Another hover based animation used was shadowing with borders, this is used on the news section and help distinguish each article on hover.
 
 
-## Features
+## FEATURES
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
@@ -55,15 +55,47 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 - Another feature idea
 
-## Technologies Used
+## TECHNOLOGIES USED
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML)  - Struture of the page.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Style of the page.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### Libraries
+* [Bootstrap 4](https://getbootstrap.com/)
+* [Font Awesome 4.7](https://fontawesome.com/v4.7.0/)
 
+### Tools
+* [Github](https://github.com/) - Repository Hosting.
+* [Gitpod](https://www.gitpod.io/) - IDE.
+* [Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) - UX Testing.
+* [W3C - HTML Validator](https://validator.w3.org/) - Validate HTML.
+* [W3C - CSS Validator](https://jigsaw.w3.org/css-validator/) - Validate HTML.
+* [PurifyCSS](https://purifycss.online/) - Remove unused CSS.
+* [CSS-beautify](https://www.cleancss.com/css-beautify/) - Format CSS.
+* [EzGif.com](https://ezgif.com/webp-to-png) - Convert Image to more useable formats.
+* [Vecteezy.com](https://www.vecteezy.com/) - Images to fill site sections.
 
 ## Testing
+
+As a base building block I believe evidence of my testing is contained within my commits and commit comments, so along with that the below is generally what I have been testing and how.
+
+1. Jumbotron:
+
+2. Navbar:
+
+3. Social Media bar:
+
+4. News Section:
+
+5. Form Center:
+
+6. Features:
+
+7. Footer:
+
+8. Sign up / Sign In Modals:
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -105,4 +137,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from the below websites:
+
+1. [Fantasy Premier League](https://fantasy.premierleague.com/)
+2. [Fantasy Football Fix](https://www.fantasyfootballfix.com/)
+3. [Fantasy Football Scout](https://www.fantasyfootballscout.co.uk/)
+
+## Fair Use Disclaimer
+ - The images used in this porject are not owned by me and I have not been given permission to use these, the purpose of their inclusion is purely for visuals within the project and the entire project is for nonprofit educational purposes.
