@@ -12,13 +12,33 @@ Feature: This is a currently undeveloped section where I plan in the future to b
 
 
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This website was designed specifically for Fantasy Premier League users, keeping this in mind I knew with an already large amount of resources available to these users I had to keep the design of the site simplistic and to the point as many similar sites can be instantly overlooked when information is too cluttered. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+My setup on this initally was to have a multi page experience for he user, when each section (of current scrolling format) having its own page that would then have far more information, but upon trying to build it this way it became apparant that in order to fillout those pages more I would be using filler infromation that would distract from the core value of the site and thus work in line with what I said above regarding clutter.
+
+Once I had switched the project to single scrolling page I had to determine a efficient design that took inspiration from a number of FPL websites (sites in credits below). 
+
+Jumbotron: To make the website name front and center and provide and instantly focus point where a call to action button to sign is used.
+
+Navbar: Most modern websites appear to use some form of navbar a constant point of navigation reference, seemed appropriate to follow suit, especially for a single scrolling page.
+
+Social Media Bar: Responsive bar that appears on the left for mid to large screens and docked to the bottom on small screen to allow for easily connecting with the pages hypothetical social media accounts
+
+Sections: The three section were specifically ordered as to no overwhelm the user with too much information initially, starting with basic introductory news section, proceeding to more data centric form center and finally to the more complex features.
+
+Footer: Generic footer design with some basic links, 2 dead (purely for visual purpose) and one to jump back to top of page.
+
+Font:Exo/Roboto - used in a previous project and looked appropriate for this typ of information / data based website.
+
+Modals: There are two modals, one for signing up and one for signing in. both are access from each other as well as button on the webpage, the reason for using modals for these funtions was to keep them out of the way visually as the content of the site itself should be the core of the offering but to make easily access if a user need/wanted to use them (i.e. launch without leaving the main page).
+
+Colour: The main colour team of the site is Purple/Green/White, this was a conscious decision to keep the theme in line with the official Fantasy Premier League webiste and therefore potential creating a link of association in users minds between the two.
+
+Animations:
+    Scrollspy -  added to navbar to make it obvious which section of the page a user was on
+    Hover - most hover animations on the page are color inversions (font color becomes background color and background color become font color), I did this as I felt it made the items for interaction very obvious. These animations are included in the navbar, buttons, social media bar & Sign up/Sign in modals. Another hover based animation used was shadowing with borders, this is used on the news section and help distinguish each article on hover.
+
 
 ## Features
 
