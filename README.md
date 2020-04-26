@@ -58,7 +58,7 @@ Animations:
 * [Gitpod](https://www.gitpod.io/) - IDE.
 * [Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) - UX Testing.
 * [W3C - HTML Validator](https://validator.w3.org/) - Validate HTML.
-* [W3C - CSS Validator](https://jigsaw.w3.org/css-validator/) - Validate HTML.
+* [W3C - CSS Validator](https://jigsaw.w3.org/css-validator/) - Validate CSS.
 * [PurifyCSS](https://purifycss.online/) - Remove unused CSS.
 * [CSS-beautify](https://www.cleancss.com/css-beautify/) - Format CSS.
 * [EzGif.com](https://ezgif.com/webp-to-png) - Convert Image to more useable formats.
@@ -116,6 +116,21 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+
+### Code Snips
+- Below links helped me in various parts of the project to overcome issues:
+https://bootsnipp.com/snippets/z8699
+https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+https://www.codeply.com/go/qhaBrcWp3v
+https://www.w3schools.com/css/css3_gradients.asp
+https://stackoverflow.com/questions/6457406/can-i-apply-multiple-background-colors-with-css3
+https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530
+https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider
+https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div
+https://stackoverflow.com/questions/2147303/how-can-i-send-an-inner-div-to-the-bottom-of-its-parent-div
+https://www.w3schools.com/cssref/func_calc.asp
+https://www.flaticon.com/free-icon/tactics_1286371?term=soccer%20tactics&page=1&position=25
+https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
