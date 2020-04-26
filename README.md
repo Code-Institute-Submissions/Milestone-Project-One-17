@@ -1,56 +1,44 @@
 # Fantasy Premier League - Assistant Manager
 
-Fantasy Premier League - Assistant Manager is the front end piece of what I hope to be able to build on in the future to provide a full set of tools to FPL (Fantasy Premier League) players in order to assist them maximise their weekly points total to give them a significantly better chance of winning their mini league and also push them up the global leaderboard. 
+Fantasy Premier League - Assistant Manager is the front end piece of what I hope to be able to build on in the future to provide a full set of tools to FPL (Fantasy Premier League) players in order to assist them to maximise their weekly points total to give them a significantly better chance of winning their mini-league and also push them up the global leaderboard. 
 
-FPL - AM is designed to porvide a central location FPL news and data so they can make the most informed picks for each gameweek. This is done in 3 main sections:
+FPL - AM is designed to provide a central location FPL news and data so they can make the most informed picks for each gameweek. This is done in 3 main sections:
 
-News: Provides the latest news that will affect player availablilty, injuries, suspensions, double gameweeks and also some analysis into top FPL Players
+1. News: Provides the latest news that will affect player availability, injuries, suspensions, double gameweeks and also some analysis into top FPL Players
 
-Form Center: A quick view into which FPL assets are currently the highest performing and therefore potential good picks for future gameweeks 
+2. Form Center: A quick view into which FPL assets are currently the highest performing and therefore potential good picks for future gameweeks 
 
-Feature: This is a currently undeveloped section where I plan in the future to build in backend integration with the FPL API in order to provide detailed analysis & predictions for FPL asset returns (scores) and price fluctuations
+3. Feature: This is a currently undeveloped section where I plan in the future to build in backend integration with the FPL API in order to provide detailed analysis & predictions for FPL asset returns (scores) and price fluctuations
 
 
-## UX
+## UX & FEATURES
 
 This website was designed specifically for Fantasy Premier League users, keeping this in mind I knew with an already large amount of resources available to these users I had to keep the design of the site simplistic and to the point as many similar sites can be instantly overlooked when information is too cluttered. 
 
-My setup on this initally was to have a multi page experience for he user, when each section (of current scrolling format) having its own page that would then have far more information, but upon trying to build it this way it became apparant that in order to fillout those pages more I would be using filler infromation that would distract from the core value of the site and thus work in line with what I said above regarding clutter.
+My setup on this initially was to have a multi-page experience for the user, when each section (of current scrolling format) having its own page that would then have far more information, but upon trying to build it this way it became apparent that in order to fill out those pages more I would be using filler information that would distract from the core value of the site and thus work in line with what I said above regarding clutter.
 
-Once I had switched the project to single scrolling page I had to determine a efficient design that took inspiration from a number of FPL websites (sites in credits below). 
+Once I had switched the project to a single scrolling page I had to determine an efficient design that took inspiration from a number of FPL websites (sites in credits below). 
 
 Jumbotron: To make the website name front and center and provide and instantly focus point where a call to action button to sign is used.
 
 Navbar: Most modern websites appear to use some form of navbar a constant point of navigation reference, seemed appropriate to follow suit, especially for a single scrolling page.
 
-Social Media Bar: Responsive bar that appears on the left for mid to large screens and docked to the bottom on small screen to allow for easily connecting with the pages hypothetical social media accounts
+Social Media Bar: Responsive bar that appears on the left for mid to large screens and docked to the bottom on small screens to allow for easily connecting with the pages hypothetical social media accounts
 
-Sections: The three section were specifically ordered as to no overwhelm the user with too much information initially, starting with basic introductory news section, proceeding to more data centric form center and finally to the more complex features.
+Sections: The three sections were specifically ordered as to no overwhelm the user with too much information initially, starting with a basic introductory news section, proceeding to more data-centric form center, and finally to the more complex features.
 
-Footer: Generic footer design with some basic links, 2 dead (purely for visual purpose) and one to jump back to top of page.
+Footer: Generic footer design with some basic links, 2 dead (purely for visual purpose), and one to jump back to the top of the page.
 
-Font:Exo/Roboto - used in a previous project and looked appropriate for this typ of information / data based website.
+Font: Exo/Roboto - used in a previous project and looked appropriate for this type of information/data based website.
 
-Modals: There are two modals, one for signing up and one for signing in. both are access from each other as well as button on the webpage, the reason for using modals for these funtions was to keep them out of the way visually as the content of the site itself should be the core of the offering but to make easily access if a user need/wanted to use them (i.e. launch without leaving the main page).
+Modals: There are two modals, one for signing up and one for signing in. both are access from each other as well as a button on the webpage, the reason for using modals for these functions was to keep them out of the way visually as the content of the site itself should be the core of the offering but to make them easily accessed if a user need/wanted to use them (i.e. launch without leaving the main page).
 
-Colour: The main colour team of the site is Purple/Green/White, this was a conscious decision to keep the theme in line with the official Fantasy Premier League webiste and therefore potential creating a link of association in users minds between the two.
+Colour: The main colour team of the site is Purple/Green/White, this was a conscious decision to keep the theme in line with the official Fantasy Premier League website and therefore potential creating a link of association in users minds between the two.
 
 Animations:
     Scrollspy -  added to navbar to make it obvious which section of the page a user was on
     Hover - most hover animations on the page are color inversions (font color becomes background color and background color become font color), I did this as I felt it made the items for interaction very obvious. These animations are included in the navbar, buttons, social media bar & Sign up/Sign in modals. Another hover based animation used was shadowing with borders, this is used on the news section and help distinguish each article on hover.
 
-
-## FEATURES
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 - Another feature idea
@@ -133,7 +121,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Fantasy Premier League](https://fantasy.premierleague.com/) & [Vecteezy.com](https://www.vecteezy.com/) (See Fair Use Disclaimer)
 
 ### Acknowledgements
 
@@ -144,4 +132,4 @@ In addition, if it is not obvious, you should also describe how to run your code
 3. [Fantasy Football Scout](https://www.fantasyfootballscout.co.uk/)
 
 ## Fair Use Disclaimer
- - The images used in this porject are not owned by me and I have not been given permission to use these, the purpose of their inclusion is purely for visuals within the project and the entire project is for nonprofit educational purposes.
+ - The images used in this project are not owned by me and I have not been given permission to use these, the purpose of their inclusion is purely for visuals within the project and the entire project is for nonprofit educational purposes. If this site was to ever go outside the remit of "nonprofit educational" then these images would be removed prior to such action.
