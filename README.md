@@ -1,9 +1,16 @@
-# Your Project's Name
+# Fantasy Premier League - Assistant Manager
 
-One or two paragraphs providing an overview of your project.
+Fantasy Premier League - Assistant Manager is the front end piece of what I hope to be able to build on in the future to provide a full set of tools to FPL (Fantasy Premier League) players in order to assist them maximise their weekly points total to give them a significantly better chance of winning their mini league and also push them up the global leaderboard. 
 
-Essentially, this part is your sales pitch.
- 
+FPL - AM is designed to porvide a central location FPL news and data so they can make the most informed picks for each gameweek. This is done in 3 main sections:
+
+News: Provides the latest news that will affect player availablilty, injuries, suspensions, double gameweeks and also some analysis into top FPL Players
+
+Form Center: A quick view into which FPL assets are currently the highest performing and therefore potential good picks for future gameweeks 
+
+Feature: This is a currently undeveloped section where I plan in the future to build in backend integration with the FPL API in order to provide detailed analysis & predictions for FPL asset returns (scores) and price fluctuations
+
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
