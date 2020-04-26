@@ -19,25 +19,25 @@ My setup on this initially was to have a multi-page experience for the user, whe
 
 Once I had switched the project to a single scrolling page I had to determine an efficient design that took inspiration from a number of FPL websites (sites in credits below). 
 
-Jumbotron: To make the website name front and center and provide and instantly focus point where a call to action button to sign is used.
+**Jumbotron:** To make the website name front and center and provide and instantly focus point where a call to action button to sign is used.
 
-Navbar: Most modern websites appear to use some form of navbar a constant point of navigation reference, seemed appropriate to follow suit, especially for a single scrolling page.
+**Navbar:** Most modern websites appear to use some form of navbar a constant point of navigation reference, seemed appropriate to follow suit, especially for a single scrolling page.
 
-Social Media Bar: Responsive bar that appears on the left for mid to large screens and docked to the bottom on small screens to allow for easily connecting with the pages hypothetical social media accounts
+**Social Media Bar:** Responsive bar that appears on the left for mid to large screens and docked to the bottom on small screens to allow for easily connecting with the pages hypothetical social media accounts
 
-Sections: The three sections were specifically ordered as to no overwhelm the user with too much information initially, starting with a basic introductory news section, proceeding to more data-centric form center, and finally to the more complex features.
+**Sections:** The three sections were specifically ordered as to no overwhelm the user with too much information initially, starting with a basic introductory news section, proceeding to more data-centric form center, and finally to the more complex features.
 
-Footer: Generic footer design with some basic links, 2 dead (purely for visual purpose), and one to jump back to the top of the page.
+**Footer:** Generic footer design with some basic links, 2 dead (purely for visual purpose), and one to jump back to the top of the page.
 
-Font: Exo/Roboto - used in a previous project and looked appropriate for this type of information/data based website.
+**Font:** Exo/Roboto - used in a previous project and looked appropriate for this type of information/data based website.
 
-Modals: There are two modals, one for signing up and one for signing in. both are access from each other as well as a button on the webpage, the reason for using modals for these functions was to keep them out of the way visually as the content of the site itself should be the core of the offering but to make them easily accessed if a user need/wanted to use them (i.e. launch without leaving the main page).
+**Modals:** There are two modals, one for signing up and one for signing in. both are access from each other as well as a button on the webpage, the reason for using modals for these functions was to keep them out of the way visually as the content of the site itself should be the core of the offering but to make them easily accessed if a user need/wanted to use them (i.e. launch without leaving the main page).
 
-Colour: The main colour team of the site is Purple/Green/White, this was a conscious decision to keep the theme in line with the official Fantasy Premier League website and therefore potential creating a link of association in users minds between the two.
+**Colour:** The main colour team of the site is Purple/Green/White, this was a conscious decision to keep the theme in line with the official Fantasy Premier League website and therefore potential creating a link of association in users minds between the two.
 
-Animations:
-    Scrollspy -  added to navbar to make it obvious which section of the page a user was on
-    Hover - most hover animations on the page are color inversions (font color becomes background color and background color become font color), I did this as I felt it made the items for interaction very obvious. These animations are included in the navbar, buttons, social media bar & Sign up/Sign in modals. Another hover based animation used was shadowing with borders, this is used on the news section and help distinguish each article on hover.
+**Animations:**
+* Scrollspy -  added to navbar to make it obvious which section of the page a user was on
+* Hover - most hover animations on the page are color inversions (font color becomes background color and background color become font color), I did this as I felt it made the items for interaction very obvious. These animations are included in the navbar, buttons, social media bar & Sign up/Sign in modals. Another hover based animation used was shadowing with borders, this is used on the news section and help distinguish each article on hover.
 
 
 ### Features Left to Implement
@@ -129,14 +129,14 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements
 
-- I received inspiration for this project from the below websites:
+I received inspiration for this project from the below websites:
 
 1. [Fantasy Premier League](https://fantasy.premierleague.com/)
 2. [Fantasy Football Fix](https://www.fantasyfootballfix.com/)
 3. [Fantasy Football Scout](https://www.fantasyfootballscout.co.uk/)
 
 ### Code Snips
-- Below links helped me in various parts of the project to overcome issues:
+Below links helped me in various parts of the project to overcome issues:
 * https://bootsnipp.com/snippets/z8699
 * https://www.w3schools.com/bootstrap/bootstrap_modal.asp
 * https://www.codeply.com/go/qhaBrcWp3v
