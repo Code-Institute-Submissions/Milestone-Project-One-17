@@ -66,42 +66,37 @@ Once I had switched the project to a single scrolling page I had to determine an
 
 ## TESTING
 
-As a base building block I believe evidence of my testing is contained within my commits and commit comments, so along with that the below is generally what I have been testing and how.
+As a base building block, I believe the evidence of my testing is contained within my commits and commit comments, so along with that, the below is generally what I have been testing and how.
 
-1. Jumbotron:
+Each section has had extensive individual testing across multiple browsers and the use of chrome developer tools to test on a wide variety for sizes and aspect ratios, some of this testing included the following:
 
-2. Navbar:
+1. Jumbotron: Ensuring design worked well on all screen size and didn't lead to an overflow, also check multiple screen sizes for the change in header from depending on what size the screen is (the smaller screen has a more trimmed down header text)
 
-3. Social Media bar:
+2. Navbar: ensuring toggling between screen sizes work and that hover and scroll spy worked as expected, in this testing, I noticed I needed to offset the position point for the scroll spy so as it would be able to include the bottom section, as initially, the page did not scroll far enough to scroll over it
 
-4. News Section:
+3. Social Media bar: on mid-sized screens, I noticed an issue where the navbar would scroll over the social media bar, so I increased its z-index to ensure the social media bar appeared to top where there was crossover (note despite the navbar being a more important feature the cross over only happens with a section of the navbar which is unused)
 
-5. Form Center:
+4. News Section: Responsive design checked with chrome dev tools and hover effects checked 
 
-6. Features:
+5. Form Center: After initially testing I was unhappy with the responsive not maintaining an aspect ratio for the team of the week section, this lead to a complete rebuild that was then tested to maintain (roughly) the aspect ratio of the pitch image and the players.
+
+6. Features: initially there was lots of overflow with the buttons on the divs and also the divs would change the size to match the volume of content, I wanted a more uniform design so made alteration and also fixed the buttons to the bottom of the containing divs, once these were complete I retested using chrome dev tools.
 
 7. Footer:
+Links tested (2 dead links purposely) and 1 link to bring back to the top of page
 
 8. Sign up / Sign In Modals:
+Modals tested on multiple screen sizes using chrome dev tools for hover effects and the linkage between each modal, each one is launchable from a link on the web page and each one is counter linked to the other via a link in each modal
 
+All links on the page have been tested,
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+1. Jumbotron: launches sign up modal
+2. Navbar: brand links to home, section jump to a section, sign in links to sign in modal
+3. News Section: 3 dead links to nowhere, 1 link to an external site for related article
+4. Features: 3 dead links
+5. Footer: as described above (2 dead links and 1 link to bring back to the top of page)
+6. Modals: dead sign up/ sign in links, modal crossover links (jump from one modal to the other), close modal links.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## DEPLOYMENT
 
