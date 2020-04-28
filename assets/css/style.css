@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700&display=swap);
 body{
     background:#fafafa;
@@ -60,7 +61,9 @@ body{
     }
 }
 .navbar-nav{
-    align-items:center
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center
 }
 .display-Title{
     font-size:3.2rem;
@@ -94,6 +97,8 @@ body{
     display:block;
     text-align:center;
     padding:10px 13px;
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
     transition:all .3s ease;
     color:#fff;
     font-size:20px;
@@ -201,7 +206,8 @@ body{
 }
 @media (min-width:768px){
     .news:hover{
-        box-shadow:5px 0 40px rgba(0,0,0,.4)
+        -webkit-box-shadow:5px 0 40px rgba(0,0,0,.4);
+                box-shadow:5px 0 40px rgba(0,0,0,.4)
     }
     .news-top-left:hover{
         border-top:#290035 solid 1px;
@@ -256,7 +262,8 @@ body{
 }
 .col-custom{
     -ms-flex:0 0 20%;
-    flex:0 0 20%;
+    -webkit-box-flex:0;
+            flex:0 0 20%;
     max-width:20%;
     margin:2.5%;
     position:relative;
@@ -295,7 +302,8 @@ body{
     bottom:0;
     font-weight:600;
     white-space:nowrap;
-    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+       text-overflow:ellipsis;
     overflow:hidden;
     background-color:#290035;
     opacity:75%
@@ -391,7 +399,8 @@ body{
 }
 tr td{
     white-space:nowrap;
-    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+       text-overflow:ellipsis;
     overflow:hidden
 }
 @media (max-width:992px){
@@ -438,7 +447,8 @@ tr td{
     padding:10px;
     margin-bottom:0;
     height:160px;
-    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+       text-overflow:ellipsis;
     overflow:hidden
 }
 .feature h3{
@@ -673,39 +683,3 @@ tr td{
     text-decoration:none;
     cursor:pointer
 }
-
-
-/* ///////////////////////////////////////////////////////////////////// */
-
-
-
-
-/* //////////////////////////////////////////////////////////////////////// */
-
-
-/* Credits */
-https://www.w3schools.com/css/css3_gradients.asp
-https://stackoverflow.com/questions/6457406/can-i-apply-multiple-background-colors-with-css3
-https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end/52195530
-https://stackoverflow.com/questions/21343659/bootstrap-3-horizontal-and-vertical-divider
-https://stackoverflow.com/questions/22162560/button-at-the-center-and-bottom-of-div
-https://stackoverflow.com/questions/2147303/how-can-i-send-an-inner-div-to-the-bottom-of-its-parent-div
-https://www.w3schools.com/cssref/func_calc.asp
-https://www.flaticon.com/free-icon/tactics_1286371?term=soccer%20tactics&page=1&position=25
-https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal
-
-/* https://www.w3schools.com/howto/howto_css_loader.asp */
-https://www.w3schools.com/bootstrap/bootstrap_modal.asp
-
-https://www.codeply.com/go/qhaBrcWp3v
-
-/* Tools */
-/* https://www.freeformatter.com/css-beautifier.html */
-/* https://purifycss.online/ */
-https://bootsnipp.com/snippets/z8699
-
-
-
-
-/* https://purifycss.online/ */
-/* https://www.cleancss.com/css-beautify/ */

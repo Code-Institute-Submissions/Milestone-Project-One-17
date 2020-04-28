@@ -60,6 +60,7 @@ Once I had switched the project to a single scrolling page I had to determine an
 * [CSS-beautify](https://www.cleancss.com/css-beautify/) - Format CSS.
 * [EzGif.com](https://ezgif.com/webp-to-png) - Convert Image to more useable formats.
 * [Vecteezy.com](https://www.vecteezy.com/) - Images to fill site sections.
+* [AutoPrefixer](https://autoprefixer.github.io/) - Add vendor prefixes to CSS.
 
 ## TESTING
 
