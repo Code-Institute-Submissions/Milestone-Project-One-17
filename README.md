@@ -40,9 +40,6 @@ Once I had switched the project to a single scrolling page I had to determine an
 * Hover - most hover animations on the page are color inversions (font color becomes background color and background color become font color), I did this as I felt it made the items for interaction very obvious. These animations are included in the navbar, buttons, social media bar & Sign up/Sign in modals. Another hover based animation used was shadowing with borders, this is used on the news section and help distinguish each article on hover.
 
 
-### Features Left to Implement
-- Another feature idea
-
 ## TECHNOLOGIES USED
 
 ### Languages
